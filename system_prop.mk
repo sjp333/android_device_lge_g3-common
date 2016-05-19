@@ -1,10 +1,5 @@
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
-    audio.offload.24bit.enable=true \
-    audio.offload.buffer.size.kb=32 \
-    audio.offload.gapless.enabled=false \
-    audio.offload.multiple.enabled=false \
-    audio.offload.pcm.enable=true \
     media.aac_51_output_enabled=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -65,6 +60,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=false \
+    persist.data.qmi.adb_logmask=0 \
     ro.use_data_netmgrd=true
 
 # Recovery
